@@ -1,13 +1,7 @@
-#container {
-	
-}
-
 #animation {		
 	position: absolute;
-	opacity: 0;
-		
+	opacity: 0;		
 }
-
 
 #calculator {
 	background-color: #f2f2f2;	
