@@ -1,4 +1,5 @@
-# Almost Normal Calculator
-- pure JS, HTML & CSS
+# "Normal" Calculator
+- pure JS, HTML & CSS for practice
+- comes with a free RGB button
 - https://broileri.github.io/calc/
-- every calculator should have a RGB button
+
