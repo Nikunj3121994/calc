@@ -140,7 +140,7 @@ var body = document.getElementsByTagName("body");
 var calc = document.getElementById("calculator");
 var btn = document.getElementsByTagName("button");
 var h1 = document.getElementById("h1");
-var elem = document.getElementById("animation"); 
+var elem = document.getElementById("animation");
 
 
 function randomRGB() {
@@ -179,8 +179,7 @@ function unleashTheBeast() {
 	h1.innerHTML = "Unicorn Calculator";
  	elem.style.top = "50%";
  	var pos = 0, opaque = 0, id = setInterval(frame, 10), isHidden = true, isMoving = true, direction = 1;
-
-  	function frame() {
+ 	function frame() {
   		trot(elem, direction, pos, opaque);
   		direction++;
   		if (isHidden) {
